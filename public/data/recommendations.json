@@ -1,0 +1,85 @@
+{
+  "axes": {
+    "energy": {
+      "title": "에너지 / 컨디션",
+      "theories": [
+        { "name": "Circadian rhythm (일주기 리듬)", "url": "https://en.wikipedia.org/wiki/Circadian_rhythm", "why": "기상·식사·빛 노출 시각이 하루 컨디션의 뼈대가 된다는 개념이에요." },
+        { "name": "Sleep hygiene (수면 위생)", "url": "https://en.wikipedia.org/wiki/Sleep_hygiene", "why": "수면의 질을 높이는 생활 습관들을 정리한 개요예요." }
+      ],
+      "repos": [
+        { "name": "iSoron/uhabits", "url": "https://github.com/iSoron/uhabits", "why": "광고 없는 오픈소스 습관 추적 앱이에요.", "firstStep": "기상 시각이나 운동 같은 습관 하나만 등록해 보세요." }
+      ]
+    },
+    "focus": {
+      "title": "집중 / 실행력",
+      "theories": [
+        { "name": "Implementation intention (실행 의도, if-then 계획)", "url": "https://en.wikipedia.org/wiki/Implementation_intention", "why": "'언제 어디서 무엇을 한다'를 미리 정하면 실행률이 오른다는 연구예요. 일일 템플릿의 if-then 칸과 같은 원리예요." },
+        { "name": "Flow (몰입)", "url": "https://en.wikipedia.org/wiki/Flow_(psychology)", "why": "과제의 난이도와 내 역량이 맞물릴 때 몰입이 생긴다는 이론이에요." },
+        { "name": "Cognitive load (인지 부하)", "url": "https://en.wikipedia.org/wiki/Cognitive_load", "why": "한 번에 다루는 정보가 많을수록 실행이 어려워지는 이유를 설명해 줘요." }
+      ],
+      "repos": [
+        { "name": "ActivityWatch/activitywatch", "url": "https://github.com/ActivityWatch/activitywatch", "why": "내 컴퓨터에서 시간이 어디에 쓰이는지 자동으로 기록하는 오픈소스 도구예요. 데이터는 내 기기에 남아요.", "firstStep": "일주일만 켜 두고, 딥워크 시간이 실제로 얼마인지 확인해 보세요." }
+      ]
+    },
+    "skill": {
+      "title": "역량 / 학습",
+      "theories": [
+        { "name": "Spaced repetition (간격 반복)", "url": "https://en.wikipedia.org/wiki/Spaced_repetition", "why": "복습 간격을 점점 늘리면 같은 시간으로 더 오래 기억한다는 학습법이에요." },
+        { "name": "Zone of proximal development (근접발달영역)", "url": "https://en.wikipedia.org/wiki/Zone_of_proximal_development", "why": "혼자서는 어렵지만 도움이 있으면 할 수 있는 정도가 가장 잘 배우는 구간이라는 개념이에요." }
+      ],
+      "repos": [
+        { "name": "firstcontributions/first-contributions", "url": "https://github.com/firstcontributions/first-contributions", "why": "GitHub에서 첫 기여를 연습하는 입문용 저장소예요.", "firstStep": "안내대로 포크 → 수정 → PR 한 번만 해 보세요." },
+        { "name": "practical-tutorials/project-based-learning", "url": "https://github.com/practical-tutorials/project-based-learning", "why": "프로젝트를 직접 만들며 배우는 튜토리얼을 언어별로 모아 둔 목록이에요.", "firstStep": "관심 언어에서 가장 작은 프로젝트 하나를 골라 보세요." },
+        { "name": "vercel/next.js", "url": "https://github.com/vercel/next.js", "why": "Vercel에서 가장 자연스럽게 배포되는 React 프레임워크예요.", "firstStep": "공식 시작 가이드로 빈 앱을 만들어 배포까지 해 보세요." },
+        { "name": "supabase/supabase", "url": "https://github.com/supabase/supabase", "why": "오픈소스 백엔드(DB·로그인·저장소)예요. 일기를 브라우저 밖에 저장하는 단계에서 쓸 수 있어요.", "firstStep": "무료 프로젝트를 만들고 테이블 하나를 만들어 보세요." },
+        { "name": "open-spaced-repetition/fsrs4anki", "url": "https://github.com/open-spaced-repetition/fsrs4anki", "why": "간격 반복 일정을 데이터로 최적화하는 알고리즘 프로젝트예요." }
+      ]
+    },
+    "resource": {
+      "title": "자원 (시간·돈)",
+      "theories": [
+        { "name": "Opportunity cost (기회비용)", "url": "https://en.wikipedia.org/wiki/Opportunity_cost", "why": "무엇을 선택하면 포기하게 되는 가장 좋은 대안을 함께 보라는 개념이에요." },
+        { "name": "Prospect theory (전망 이론)", "url": "https://en.wikipedia.org/wiki/Prospect_theory", "why": "사람은 이익보다 손실을 크게 느껴 선택이 치우친다는 행동경제학 이론이에요." },
+        { "name": "Compound interest (복리)", "url": "https://en.wikipedia.org/wiki/Compound_interest", "why": "작은 변화도 시간이 쌓이면 크게 벌어지는 이유를 보여 줘요." }
+      ],
+      "repos": [
+        { "name": "actualbudget/actual", "url": "https://github.com/actualbudget/actual", "why": "내 기기에서 돌리는 오픈소스 가계부예요.", "firstStep": "한 달 지출만 입력해 보고 가장 큰 항목 하나를 찾아보세요." },
+        { "name": "firefly-iii/firefly-iii", "url": "https://github.com/firefly-iii/firefly-iii", "why": "직접 설치해 쓰는 개인 재무 관리 도구예요." },
+        { "name": "OpenBB-finance/OpenBB", "url": "https://github.com/OpenBB-finance/OpenBB", "why": "경제·시장 데이터를 한곳에서 살펴보는 오픈소스 플랫폼이에요. 투자 권유가 아니라 데이터를 읽는 연습용이에요." }
+      ]
+    },
+    "relation": {
+      "title": "관계 / 환경",
+      "theories": [
+        { "name": "Dunbar's number (던바의 수)", "url": "https://en.wikipedia.org/wiki/Dunbar%27s_number", "why": "사람이 안정적으로 유지할 수 있는 관계의 수에는 한계가 있다는 가설이에요." },
+        { "name": "Social capital (사회적 자본)", "url": "https://en.wikipedia.org/wiki/Social_capital", "why": "관계와 신뢰가 개인과 공동체에 주는 자원을 설명해요." }
+      ],
+      "repos": [
+        { "name": "monicahq/monica", "url": "https://github.com/monicahq/monica", "why": "소중한 사람들과의 대화와 기억을 기록하는 오픈소스 개인 관계 관리 도구예요.", "firstStep": "연락이 뜸했던 사람 한 명을 적고, 이번 주 안부 인사를 정해 보세요." }
+      ]
+    },
+    "meaning": {
+      "title": "방향 / 의미",
+      "theories": [
+        { "name": "Self-determination theory (자기결정이론)", "url": "https://en.wikipedia.org/wiki/Self-determination_theory", "why": "자율성·유능감·관계성이 채워질 때 동기가 오래간다는 이론이에요." },
+        { "name": "Goal-setting theory (목표설정이론)", "url": "https://en.wikipedia.org/wiki/Goal-setting_theory", "why": "구체적이고 도전적인 목표가 수행을 높인다는 연구예요." }
+      ],
+      "repos": [
+        { "name": "logseq/logseq", "url": "https://github.com/logseq/logseq", "why": "생각을 연결해 기록하는 오픈소스 지식 노트예요. 주간 리뷰를 쌓아 두기 좋아요.", "firstStep": "이번 주 리뷰 한 줄을 오늘 날짜 페이지에 적어 보세요." }
+      ]
+    }
+  },
+  "general": {
+    "theories": [
+      { "name": "OODA loop (관찰-판단-결정-행동)", "url": "https://en.wikipedia.org/wiki/OODA_loop", "why": "변화가 빠를 때 관찰에서 행동까지 루프를 얼마나 빨리 도는지가 중요하다는 틀이에요." },
+      { "name": "PDCA cycle (계획-실행-점검-개선)", "url": "https://en.wikipedia.org/wiki/PDCA", "why": "주간 실험을 돌리는 기본 구조와 같아요." },
+      { "name": "Twelve leverage points (12가지 레버리지)", "url": "https://en.wikipedia.org/wiki/Twelve_leverage_points", "why": "시스템에서 작은 힘으로 큰 변화를 만드는 지점을 정리한 도넬라 메도우즈의 글이에요." },
+      { "name": "Thinking, Fast and Slow (생각에 관한 생각)", "url": "https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow", "why": "빠른 직관과 느린 숙고가 선택을 어떻게 만드는지 다룬 대표 저서예요." }
+    ],
+    "repos": [
+      { "name": "ourworldindata/owid-grapher", "url": "https://github.com/ourworldindata/owid-grapher", "why": "Our World in Data의 차트 도구예요. 경제·사회·환경 변화를 장기 데이터로 읽는 눈을 길러 줘요." },
+      { "name": "public-apis/public-apis", "url": "https://github.com/public-apis/public-apis", "why": "무료 공개 API 목록이에요. 브리핑에 날씨·경제 지표를 붙이고 싶을 때 쓸 수 있어요." },
+      { "name": "kamranahmedse/developer-roadmap", "url": "https://github.com/kamranahmedse/developer-roadmap", "why": "개발 학습 경로를 한눈에 보여 주는 로드맵이에요." }
+    ]
+  }
+}

@@ -62,3 +62,17 @@ strategic-diary/
 - 계획은 "if-then" 형태로 쓴다. ("아침 7시에 앉으면 → 먼저 30분 공부한다")
 - 못 지킨 날은 평가하지 않고 **원인**을 적는다. (의지 문제인가, 설계 문제인가)
 - 지표는 적게, 숫자로. 느낌만 쓰면 변화를 검증할 수 없다.
+
+## 웹앱 (Vercel 배포)
+
+일기·상태·세상 브리핑·배움 추천을 한 화면에서 쓰는 웹앱이 들어 있다. 패키지 설치가 필요 없다.
+
+```
+npm run dev     # http://localhost:3000 (로컬 확인)
+npm test        # 로직·브리핑 테스트
+```
+
+- `public/` 정적 화면 (기록은 브라우저 localStorage, 내려받기로 `days/*.md` 보관)
+- `api/briefing.js` 경제·사회·환경·기술 뉴스 제목/링크 브리핑 (Vercel 서버리스)
+- `public/data/recommendations.json` 상태 축별 이론·GitHub 오픈소스 추천
+- 배포: Vercel에서 이 저장소를 Import 하면 끝 (`vercel.json`이 `public/`을 서빙)
